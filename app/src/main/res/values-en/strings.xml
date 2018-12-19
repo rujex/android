@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">APP Quest</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_acerca">About</string>
+    <string name="title_activity_resumen_calificaciones">" Summary"</string>
+    <string name="preguntas">Questions</string>
+    <string name="categorias">Category</string>
+    <string name="cuestionarios">Questionnaires</string>
+    <string name="calificacion">Qualification</string>
+    <string name="title_activity_main2">Main Activity</string>
+    <string name="title_activity_resumen_calificacion">Summary</string>
+    <string name="autor">Author</string>
+    <string name="title_activity_listado_preguntas">Question List</string>
+    <string name="ninguna_pregunta">Any Question</string>
+    <string name="titulo_pregunta">Create Question</string>
+    <string name="enunciado_pregunta">What is the most used programming language?</string>
+    <string name="boton_comprobar">Save Question</string>
+    <string name="write_permission_granted">You have writing permission</string>
+    <string name="write_permission_denied">"You do not have permission "</string>
+    <string name="write_permission_accepted">"You have accepted writing permission "</string>
+    <string name="write_permission_not_accepted">"You have not accepted writing permission "</string>
+    <string name="opciones">options</string>
+
+</resources>

@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">APP Quest</string>
+    <string name="action_settings">Configuracion</string>
+    <string name="action_acerca">Acerca de</string>
+    <string name="title_activity_resumen_calificaciones">resumen_calificaciones</string>
+    <string name="preguntas">Preguntas disponibles:</string>
+    <string name="categorias">Categorias disponibles:</string>
+    <string name="cuestionarios">Cuestionarios realizados:</string>
+    <string name="calificacion">Calificación media:</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_resumen_calificacion">resumen_calificacion</string>
+    <string name="autor">Esta aplicación ha sido desarrollada por Rubén Garzón que está cursando 2º
+        CFGS de Desarrollo de Aplicaciones Multiplataforma.
+    </string>
+    <string name="version">Version 1.0</string>
+    <string name="title_activity_listado_preguntas">listadoPreguntas</string>
+    <string name="ninguna_pregunta">Aún no has añadido ninguna pregunta</string>
+    <string name="titulo_pregunta">Crear pregunta</string>
+    <string name="enunciado_pregunta">¿Cuál es el lenguaje de programación más utilizado?</string>
+    <string name="boton_comprobar">Guardar pregunta</string>
+    <string name="write_permission_granted">Tienes permiso de Escritura</string>
+    <string name="write_permission_denied">No tienes permiso de Escritura</string>
+    <string name="write_permission_accepted">Has aceptado permiso de Escritura</string>
+    <string name="write_permission_not_accepted">No has aceptado permiso de Escritura</string>
+    <string name="opciones">Opciones</string>
+
+
+</resources>
