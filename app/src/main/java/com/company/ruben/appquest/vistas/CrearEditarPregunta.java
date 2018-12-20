@@ -120,7 +120,7 @@ public class CrearEditarPregunta extends AppCompatActivity {
             public void onClick(View v) {
 
 
-                if (spinner.getSelectedItem().toString().equals(Constants.categoriaVacia)) {
+                if (spinner.getSelectedItem().toString() == null) {
                     Snackbar.make(v, Constants.categoriaVacia, Snackbar.LENGTH_LONG)
                             .setAction(Constants.Action, null).show();
 
