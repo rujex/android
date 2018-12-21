@@ -5,7 +5,7 @@
     <string name="title_activity_resumen_calificaciones">resumen_calificaciones</string>
     <string name="preguntas">Preguntas disponibles:</string>
     <string name="categorias">Categorias disponibles:</string>
-    <string name="cuestionarios">Cuestionarios realizados:</string>
+    <string name="cuestionarios">Cuestionarios:</string>
     <string name="calificacion">Calificación media:</string>
     <string name="title_activity_main2">Main2Activity</string>
     <string name="title_activity_resumen_calificacion">resumen_calificacion</string>
@@ -23,6 +23,7 @@
     <string name="write_permission_accepted">Has aceptado permiso de Escritura</string>
     <string name="write_permission_not_accepted">No has aceptado permiso de Escritura</string>
     <string name="opciones">Opciones</string>
+    <string name="resumen">Resumen</string>
 
 
 </resources>
