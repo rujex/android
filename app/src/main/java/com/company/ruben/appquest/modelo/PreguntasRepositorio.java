@@ -30,8 +30,10 @@ public class PreguntasRepositorio {
      * @param miContexto contexto de la actividad
      */
 
-    public static void insertar(Pregunta pregunta, Context miContexto) {
+    public static boolean insertar(Pregunta pregunta, Context miContexto) {
         // Insertar preguntas en la base de datos
+
+        boolean valor = true;
 
         PreguntaSQLiteHelper uadh = new PreguntaSQLiteHelper(miContexto, Constants.basededatos, null, 1);
         SQLiteDatabase db = uadh.getWritableDatabase();
@@ -51,7 +53,11 @@ public class PreguntasRepositorio {
             db.insert("preguntas", "id", registro);
 
             db.close();
+        }else{
+            valor = false;
         }
+
+        return valor;
 
     }
 
@@ -63,7 +69,9 @@ public class PreguntasRepositorio {
      * @param myContext Contexto de la actividad
      */
 
-    public static void actualizar(Pregunta pregunta, Context myContext) {
+    public static boolean actualizar(Pregunta pregunta, Context myContext) {
+
+        boolean valor=true;
 
         PreguntaSQLiteHelper uadh = new PreguntaSQLiteHelper(myContext, Constants.basededatos, null, 1);
         SQLiteDatabase db = uadh.getWritableDatabase();
@@ -85,7 +93,10 @@ public class PreguntasRepositorio {
 
             //Cerramos la base de datos
             db.close();
+        }else{
+            valor=false;
         }
+        return valor;
     }
 
     /**
@@ -98,7 +109,12 @@ public class PreguntasRepositorio {
         PreguntaSQLiteHelper uadh = new PreguntaSQLiteHelper(miContexto, Constants.basededatos, null, 1);
         SQLiteDatabase db = uadh.getWritableDatabase();
 
-        db.execSQL("delete from preguntas where id='" + (id) + "'");
+        if(db!=null){
+            db.execSQL("delete from preguntas where id='" + (id) + "'");
+            db.close();
+        }
+
+
     }
 
     /**
