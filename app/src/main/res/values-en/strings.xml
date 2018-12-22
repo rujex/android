@@ -21,5 +21,7 @@
     <string name="write_permission_accepted">"You have accepted writing permission "</string>
     <string name="write_permission_not_accepted">"You have not accepted writing permission "</string>
     <string name="opciones">options</string>
+    <string name="resumen">Summary</string>
+    <string name="version">Version 1.0</string>
 
 </resources>

@@ -115,7 +115,7 @@ public class PreguntasRepositorio {
 
         // Ejecutamos una sentencia sql SELECT, que devuelve un cursor con toda la informacion de la
         // base de datos que hemos indicado en la sentencia sql.
-        Cursor cursor = db.rawQuery("SELECT * FROM preguntas", null);
+        Cursor cursor = db.rawQuery("SELECT * FROM preguntas WHERE id='"+id+"'", null);
 
         Pregunta p = null;
 
@@ -124,7 +124,6 @@ public class PreguntasRepositorio {
         if (cursor.moveToFirst()) {
             //Recorremos el cursor hasta que no haya más registros
             do {
-                //int id = cursor.getInt(cursor.getColumnIndex(Constants.id));
                 String enunciado = cursor.getString(cursor.getColumnIndex(Constants.enunciado));
                 String categoria = cursor.getString(cursor.getColumnIndex(Constants.categoria));
                 String respuestaCorrecta = cursor.getString(cursor.getColumnIndex(Constants.respuestaCorrecta));
