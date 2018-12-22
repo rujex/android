@@ -94,16 +94,17 @@ public class ResumenCalificacion extends AppCompatActivity {
     protected void onStart() {
         super.onStart();
         //La actividad está a punto de hacerse visible.
-        TextView preguntasDisponibles = findViewById(R.id.preguntasDisponibles);
-        TextView categoriasDisponibles = findViewById(R.id.categoriasDisponibles);
-        preguntasDisponibles.setText(r.getCantidadPreguntas(miContexto));
-        categoriasDisponibles.setText(r.getCantidadCategorias(miContexto));
+
 
         MyLog.d(TAG, "Finalizando OnStart");
     }
     @Override
     protected void onResume() {
         super.onResume();
+        TextView preguntasDisponibles = findViewById(R.id.preguntasDisponibles);
+        TextView categoriasDisponibles = findViewById(R.id.categoriasDisponibles);
+        preguntasDisponibles.setText(r.getCantidadPreguntas(miContexto));
+        categoriasDisponibles.setText(r.getCantidadCategorias(miContexto));
         //La actividad se ha hecho visible (ahora se "reanuda").
     }
     @Override
