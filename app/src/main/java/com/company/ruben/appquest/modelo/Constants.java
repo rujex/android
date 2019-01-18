@@ -1,5 +1,7 @@
 package com.company.ruben.appquest.modelo;
 
+import android.os.Environment;
+
 /**
  * Clase donde se alojan todas las constantes usada en la app
  */
@@ -8,10 +10,12 @@ public final class Constants {
     public static final float VIEWPORT_WIDTH = 5.0f;
     public static final String REST_URL = "http://www.ejemplo.com/api";
     public static final int CODE_WRITE_EXTERNAL_STORAGE_PERMISSION = 123;
+    public static final int CODE_CAMERA_PERMISSION = 122;
     public static final String basededatos = "preguntas.db";
     public static final String TAG = "ListadoActivity";
     public static String Action = "Action";
     public static String camposVacios = "Rellenar todos los campos";
+
 
     // Columnas de la base de datos
     public static String id = "id";

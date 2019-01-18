@@ -22,8 +22,14 @@
     <string name="write_permission_denied">No tienes permiso de Escritura</string>
     <string name="write_permission_accepted">Has aceptado permiso de Escritura</string>
     <string name="write_permission_not_accepted">No has aceptado permiso de Escritura</string>
+    <string name="camera_permission_granted">Tienes permiso de Camara</string>
+    <string name="camera_permission_denied">No tienes permiso de Camara</string>
+    <string name="camera_permission_accepted">Has aceptado permiso de Camara</string>
+    <string name="camera_permission_not_accepted">No has aceptado permiso de Camara</string>
     <string name="opciones">Opciones</string>
     <string name="resumen">Resumen</string>
-
+    <string name="capturarfoto">Capturar foto</string>
+    <string name="error_files">No se ha podido capturar la foto</string>
+    <string name="choose_picture">elegir foto</string>
 
 </resources>

@@ -2,7 +2,11 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.company.ruben.appquest">
 
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-feature android:name="android.hardware.camera" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
 
     <application
         android:allowBackup="true"
@@ -30,7 +34,9 @@
             android:name="com.company.ruben.appquest.vistas.ListadoPreguntas"
             android:label="@string/title_activity_listado_preguntas"
             android:theme="@style/AppTheme" />
-        <activity android:name="com.company.ruben.appquest.vistas.CrearEditarPregunta"></activity>
+        <activity android:name="com.company.ruben.appquest.vistas.CrearEditarPregunta">
+
+        </activity>
 
         <meta-data
             android:name="preloaded_fonts"
